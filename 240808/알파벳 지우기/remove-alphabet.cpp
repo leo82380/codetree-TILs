@@ -23,6 +23,6 @@ int main() {
 
     int firstNum = stoi(c);
     int secondNum = stoi(d);
-    cout << firstNum + secondNum << endl;
+    cout << firstNum + secondNum;
     return 0;
 }
