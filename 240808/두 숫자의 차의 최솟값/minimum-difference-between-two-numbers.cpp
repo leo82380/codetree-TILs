@@ -10,7 +10,7 @@ int main() {
         cin >> a[i];
     }
     int min = 101;
-    for (int i = 0; i < n - 2; i++) {
+    for (int i = 0; i < n - 1; i++) {
         if (a[i + 1] - a[i] < min) min = a[i + 1] - a[i];
     }
     cout << min;
