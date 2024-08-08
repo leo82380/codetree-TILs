@@ -13,12 +13,12 @@ int main() {
 
     for (int i = 0; i < a.length(); i++)
     {
-        if (a[i] > 'a' && a[i] < 'z') continue;
+        if (a[i] >= 'a' && a[i] <= 'z') continue;
         c += a[i];
     }
     for (int i = 0; i < b.length(); i++)
     {
-        if (b[i] > 'a' && b[i] < 'z') continue;
+        if (b[i] >= 'a' && b[i] <= 'z') continue;
         d += b[i];
     }
 
