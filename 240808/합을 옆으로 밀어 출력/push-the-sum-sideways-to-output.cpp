@@ -12,10 +12,12 @@ int main() {
         num += a;
     }
     string number = to_string(num);
-    char front = number[0];
-    number[0] = NULL;
-    number += front;
-    cout << number;
-
+    string aaaaaaaaa = "";
+    for (int i = 1; i < number.length(); i++)
+    {
+        aaaaaaaaa += number[i];
+    }
+    aaaaaaaaa += number[0];
+    cout << aaaaaaaaa;
     return 0;
 }
