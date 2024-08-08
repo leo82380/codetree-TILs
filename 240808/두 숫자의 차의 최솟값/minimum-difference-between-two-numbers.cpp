@@ -9,7 +9,7 @@ int main() {
     {
         cin >> a[i];
     }
-    int min = 100;
+    int min = 101;
     for (int i = 0; i < n - 2; i++) {
         if (a[i + 1] - a[i] < min) min = a[i + 1] - a[i];
     }
